@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>foobar</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+
+	<div id="app" class="container">
+		<div class="col-md-6 mx-auto" style="margin-top: 100px; box-shadow: black 5px 5px 15px;padding: 0;">
+			<div class="card" style="width: 100%; height: 100px;box-shadow: black inset 5px 5px 15px;">
+				<p></p>
+				<p id="type" class="align-middle"
+					style="height: 70%;text-align: right;font-size: 150%;margin-bottom: 0;"></p>
+				<p id="ans" style="height:30%;text-align: right;margin-bottom: 0;"></p>
+			</div>
+			<div class="card" style="width: 100%;">
+				<div class="row">
+					<div id="clear" @click="clear" class=" bt">AC</div>
+					<div id="one" @click="on" value="1" class=" bt">1</div>
+					<div id="two" @click="two" value="2" class=" bt">2</div>
+					<div id="three" @click="three" value="3" class=" bt">3</div>
+					<div id="back" @click="back" class=" bt">
+						<< </div>
+					</div>
+					<div class="row">
+						<div id="plus" @click="plus_a" class=" bt">+</div>
+						<div id="four" @click="four" value="4" class=" bt">4</div>
+						<div id="five" @click="five" value="5" class=" bt">5</div>
+						<div id="six" @click="six" value="6" class="bt">6</div>
+						<div id="minus" @click="minus_a" value="" class=" bt">&minus;</div>
+					</div>
+					<div class="row">
+						<div id="times" @click="times_a" class=" bt">&times;</div>
+						<div id="seven" @click="seven" value="7" class="bt">7</div>
+						<div id="eight" @click="eight" value="8" class=" bt">8</div>
+						<div id="nine" @click="nine" value="9" class=" bt">9</div>
+						<div id="obelus" @click="obelus_a" class=" bt">&divide;</div>
+					</div>
+					<div class="row">
+						<div id="root" @click="rot" class=" bt">&#8730;</div>
+						<div id="tzero" @click="tzero" value="000" class=" bt">000</div>
+						<div id="zero" @click="zero" value="0" class="bt">0</div>
+						<div id="dot" @click="dot" value="." class=" bt"> &#8226; </div>
+						<div id="equal" @click="equal_a" class=" bt">=</div>
+					</div>
+
+
+				</div>
+
+			</div>
+		</div>
+
+
+
+
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/vue.js"></script>
+		<script src="js/main.js"></script>
+</body>
+
+</html>

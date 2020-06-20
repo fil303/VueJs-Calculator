@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(224, 224, 224);
+  margin: 0;
+  padding: 0;
+}
+.card {
+  overflow: hidden;
+}
+.bt {
+  width: 20%;
+  padding: 2%;
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 20%;
+  border-top: 5px solid rgb(240, 240, 240);
+  border-left: 5px solid rgb(240, 240, 240);
+  border-right: 5px solid rgb(172, 170, 170);
+  border-bottom: 5px solid rgb(172, 170, 170);
+}
+.bt:hover {
+  border-top: 5px solid rgb(172, 170, 170);
+  border-left: 5px solid rgb(172, 170, 170);
+  border-right: 5px solid rgb(240, 240, 240);
+  border-bottom: 5px solid rgb(240, 240, 240);
+}
+.bt:active {
+  border-top: 5px solid rgb(240, 240, 240);
+  border-left: 5px solid rgb(240, 240, 240);
+  border-right: 5px solid rgb(172, 170, 170);
+  border-bottom: 5px solid rgb(172, 170, 170);
+}
